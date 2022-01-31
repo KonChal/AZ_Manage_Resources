@@ -17,6 +17,7 @@ New-AzVm `
     -SubnetName "az104vmpsSubnet" `
     -SecurityGroupName "az104vmpsNetworkSecurityGroup" `
     -PublicIpAddressName "az104vmpsPublicIpAddress" `
+    -ImageName "MicrosoftWindowsServer:WindowsServer:2016-Datacenter-smalldisk:latest" `
     -OpenPorts 3389
 
 #View the vm
